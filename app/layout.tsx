@@ -18,7 +18,7 @@ export default function RootLayout({ children }: Props) {
     <html lang="pt-BR">
       <body className={`${jetBrainsMono.className} bg-zinc-950 text-white`}>
         <div className="w-full min-h-screen flex flex-col">
-          <header className="w-full flex items-center justify-center p-4 gap-6 sticky top-0 bg-zinc-950 bg-opacity-75 border-b border-zinc-950 backdrop-blur-lg backdrop-saturate-100">
+          <header className="w-full flex items-center justify-center p-4 gap-6 sticky top-0 bg-zinc-950 bg-opacity-75 border-b border-zinc-950 backdrop-blur-lg backdrop-saturate-100 z-10">
             <Link href="/" className="hover:underline underline-offset-4">
               Cronômetro
             </Link>
